@@ -1,33 +1,92 @@
-Univag 
-Curso: Análise e Desenvolvimento de Sistemas 
-Alunos: Matheus Cruz e Bruno Torres
+<div>
+<h1>Sistema de compra de pizzas</h1>
+</div>
 
-Projeto Integrador - Desenvolvimento de Progressive Web Apps (PWAs) com Frameworks Avançados 
+<h3>
+  Projeto desenvolvido para portifólio pessoal.
+</h3>
+<br>
 
-- Objetivo
-O objetivo deste projeto é criar aplicativos web modernos, conhecidos como Aplicativos Web Progressivos (PWAs), que sejam rápidos, confiáveis ​​e envolventes. Esses aplicativos serão do tipo Single Page Applications (SPAs), o que significa que eles carregam uma única página inicialmente e atualizam o conteúdo dinamicamente conforme a navegação do usuário, sem a necessidade de recarregar a página inteira.
+<p>
+ <a href="#api">• Exemplo API de Pizzas</a> 
+ <br>
+ <!-- <a href="#visao">• Visão geral</a> <br> -->
+ <a href="#leng">• Skills utilizadas</a>
+ <br>
+ <a href="#contato">• Contato</a>
+</p>
+<br>
 
-- Tecnologias
-Para o desenvolvimento da interface do usuário (front-end), utilizaremos frameworks avançados como:
+<div id="visao">
+<h1>Visão geral</h1>
+Aplicação simulando um sistema de <strong>Pizzaria</strong>, onde é possível escolher o sabor da pizza desejada, tamanho e quantidade, tudo sendo calculado e exibido <strong>automaticamente</strong> em um modal na tela do usuário. As pizzas são obtidas através de uma requisição na API que contém todas as pizzas. Também foi trabalhado as funções de um carrinho de compras, onde é possível acrescentar ou remover a quantidade de pizzas, sendo <strong>calculado em tempo real</strong> o total que o usuário deve pagar, além de um modal confirmando o pedido.
+</div>
+<br>
+<br>
 
-Angular
-React
-Vue
-Esses frameworks são extremamente usados ​​por sua capacidade de criar interfaces de usuário interativas e eficientes.
-Para a parte do servidor (back-end), que gerencia a lógica do aplicativo, armazenamento de dados e autenticação, utilizamos linguagens e tecnologias robustas como:
-PHP
-Java
-Node.js
+<h1 align="center">
+<!-- <h1> -->
+<a href="https://matealves.github.io/pizzaria/index.html" target="_blank">Testar</a> 
+</h1>
 
-- Integração com Web Services REST
-O projeto também envolve uma integração de web services RESTful. Esses serviços são essenciais para permitir uma comunicação eficiente entre o front-end e o back-end, facilitando a troca de dados e a execução de operações de forma rápida e segura
+<p align = "center">
+  <img src ="images/img_readme.jpg" alt = "mockup"/>
+</p>
+<br>
 
-- Desenvolvimento de API
-Além dos PWAs, parte do projeto é desenvolver aplicativos híbridos, que combinam elementos de aplicativos web e nativos. Isso permite que os aplicativos funcionem em diversas plataformas, como Android e iOS, utilizando uma única base de código, o que economiza tempo e recursos no desenvolvimento.
+<h1 align="center" id="api"> Exemplo dos dados da API (em JSON):</h1>
 
-- Resumo
-Em resumo, este projeto se dedica a desenvolver aplicativos web progressivos que sejam rápidos, interativos e funcionais em diferentes dispositivos e sistemas operacionais. Utilizando tecnologias avançadas tanto para a interface do usuário quanto para a lógica do servidor, garantimos uma comunicação eficiente e uma experiência de usuário aprimorada, com tempos de carregamento rápidos e funcionais.
+```
+[
+  {
+    "id": 1,
+    "name": "Atum",
+    "img": "images/atum.png",
+    "price": [14.49, 19.99, 29.99],
+    "sizes": ["320g", "530g", "860g"],
+    "description": "Molho, muçarela, atum, cebola fatiada e orégano."
+  },
+  {
+    "id": 2,
+    "name": "Calabresa",
+    "img": "images/calabresa.png",
+    "price": [14.5, 19.99, 27.99],
+    "sizes": ["320g", "530g", "860g"],
+    "description": "Molho, muçarela, calabresa fatiada, cebola fatiada e orégano."
+  }
+]
 
+```
+<br>
+<br>
 
+<div id="leng">
+<h1>Skills utilizadas</h1>
 
+ <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+      <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg">
+  <img align="center" alt="Js" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
 
+</div>
+<br>
+<br>
+<br>
+
+<div id="contato">
+<h1>Como entro em contato?</h1>
+
+Entre em contato através dos links a seguir!
+<br>
+<br>
+<a href="https://www.linkedin.com/in/mateusalvesds/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+
+<a href = "mailto:contatomateusalves@hotmail.com"><img src="https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" target="_blank"></a>
+
+<a href="https://api.whatsapp.com/send?phone=+5511966616365" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank"></a>
+
+</div>
+<br>
+<br>
+<br>
